@@ -1,0 +1,216 @@
+.payment-details-container {
+  font-family: 'Arial', sans-serif;
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 20px;
+  direction: rtl;
+}
+
+.content {
+  padding: 0;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.card-input {
+  width: 100%;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  font-size: 16px;
+  outline: none;
+}
+
+.form-row {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.half {
+  flex: 1;
+}
+
+.terms-group {
+  margin-bottom: 30px;
+  display: flex;
+  align-items: center;
+}
+
+.terms-label {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  position: relative;
+}
+
+.terms-checkbox {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+.checkmark {
+  height: 24px;
+  width: 24px;
+  background-color: #fff;
+  border: 2px solid #b39ddb;
+  border-radius: 4px;
+  margin-left: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.terms-checkbox:checked ~ .checkmark {
+  background-color: #b39ddb;
+}
+
+.checkmark:after {
+  content: "";
+  display: none;
+}
+
+.terms-checkbox:checked ~ .checkmark:after {
+  display: block;
+  width: 5px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 2px 2px 0;
+  transform: rotate(45deg);
+}
+
+.terms-text {
+  font-size: 14px;
+}
+
+.terms-link {
+  color: #b39ddb;
+  text-decoration: underline;
+}
+
+.total-amount {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  font-size: 16px;
+}
+
+.pay-now-button {
+  width: 100%;
+  padding: 15px;
+  background: linear-gradient(to right, #9c27b0, #673ab7);
+  color: white;
+  border: none;
+  border-radius: 30px;
+  font-size: 18px;
+  cursor: pointer;
+  margin-bottom: 30px;
+}
+
+.pay-now-button:disabled {
+  opacity: 0.7;
+  cursor: not-allowed;
+}
+
+.accepted-cards {
+  margin-top: 30px;
+}
+
+.cards-title {
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+.cards-icons {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+.card-icon {
+  width: 60px;
+  height: 40px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.visa {
+  background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Visa_Inc._logo.svg/2560px-Visa_Inc._logo.svg.png');
+}
+
+.mastercard {
+  background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Mastercard-logo.svg/1280px-Mastercard-logo.svg.png');
+}
+
+.amex {
+  background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/American_Express_logo_%282018%29.svg/1200px-American_Express_logo_%282018%29.svg.png');
+}
+
+.gpay {
+  background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Google_Pay_Logo_%282020%29.svg/2560px-Google_Pay_Logo_%282020%29.svg.png');
+}
+
+.samsung-pay {
+  background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Samsung_Pay_icon.svg/1200px-Samsung_Pay_icon.svg.png');
+}
+
+.cards-note {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 30px;
+}
+
+.security-badge {
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.pci-badge {
+  width: 100px;
+  height: 40px;
+  background-image: url('https://www.pcisecuritystandards.org/wp-content/uploads/2022/03/pci-logo-teal.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-left: 10px;
+}
+
+.security-text {
+  font-size: 14px;
+  color: #666;
+}
+
+.footer {
+  margin-top: 50px;
+  border-top: 1px solid #eee;
+  padding-top: 20px;
+}
+
+.copyright {
+  font-size: 14px;
+  color: #666;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.footer-link {
+  font-size: 14px;
+  color: #666;
+  text-decoration: none;
+}

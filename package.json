@@ -1,0 +1,47 @@
+{
+  "name": "du-payment-complete",
+  "version": "1.0.0",
+  "description": "Complete DU Payment Interface with Backend Database Integration",
+  "main": "du-payment-backend/server.js",
+  "scripts": {
+    "start": "npm run start:backend",
+    "start:backend": "cd du-payment-backend && npm start",
+    "start:frontend": "cd du-payment-site && npm run dev",
+    "build": "cd du-payment-site && npm run build",
+    "build:backend": "cd du-payment-backend && npm install",
+    "build:frontend": "cd du-payment-site && npm install && npm run build",
+    "install:all": "npm run install:backend && npm run install:frontend",
+    "install:backend": "cd du-payment-backend && npm install",
+    "install:frontend": "cd du-payment-site && npm install",
+    "deploy": "npm run build:frontend && npm run start:backend"
+  },
+  "keywords": [
+    "payment",
+    "du",
+    "telecommunications",
+    "react",
+    "nodejs",
+    "sqlite",
+    "wordpress",
+    "embeddable"
+  ],
+  "author": "DU Payment Team",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/du53344/duuu.git"
+  },
+  "bugs": {
+    "url": "https://github.com/du53344/duuu/issues"
+  },
+  "homepage": "https://pqfharcu.manus.space",
+  "engines": {
+    "node": ">=14.0.0",
+    "npm": ">=6.0.0"
+  },
+  "directories": {
+    "frontend": "du-payment-site",
+    "backend": "du-payment-backend"
+  }
+}
+

@@ -1,0 +1,144 @@
+.quick-recharge-container {
+  font-family: 'Arial', sans-serif;
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.header {
+  padding: 20px 0;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.nav-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  padding: 0 20px;
+}
+
+.nav-button {
+  padding: 12px 20px;
+  border-radius: 30px;
+  border: 2px solid;
+  border-color: #3a3a8c;
+  background: white;
+  color: #333;
+  font-weight: bold;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.nav-button.active, .nav-button:hover {
+  background: linear-gradient(to right, #6a11cb, #2575fc);
+  color: white;
+  border-color: transparent;
+}
+
+.content {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title {
+  font-size: 32px;
+  color: #333;
+  margin-bottom: 5px;
+  text-align: center;
+}
+
+.subtitle {
+  font-size: 18px;
+  color: #666;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.form-group {
+  width: 100%;
+  max-width: 500px;
+  margin-bottom: 30px;
+}
+
+.mobile-input {
+  width: 100%;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 30px;
+  font-size: 16px;
+  outline: none;
+}
+
+.next-button {
+  background: linear-gradient(to right, #6a11cb, #2575fc);
+  color: white;
+  border: none;
+  border-radius: 30px;
+  padding: 15px 60px;
+  font-size: 18px;
+  cursor: pointer;
+  margin-bottom: 50px;
+  transition: all 0.3s ease;
+}
+
+.next-button:hover {
+  opacity: 0.9;
+}
+
+.payment-methods {
+  width: 100%;
+  max-width: 500px;
+  margin-top: 50px;
+}
+
+.payment-title {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.payment-icons {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.payment-icon {
+  width: 60px;
+  height: 40px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.visa {
+  background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Visa_Inc._logo.svg/2560px-Visa_Inc._logo.svg.png');
+}
+
+.mastercard {
+  background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Mastercard-logo.svg/1280px-Mastercard-logo.svg.png');
+}
+
+.amex {
+  background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/American_Express_logo_%282018%29.svg/1200px-American_Express_logo_%282018%29.svg.png');
+}
+
+.gpay {
+  background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Google_Pay_Logo_%282020%29.svg/2560px-Google_Pay_Logo_%282020%29.svg.png');
+}
+
+.samsung-pay {
+  background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Samsung_Pay_icon.svg/1200px-Samsung_Pay_icon.svg.png');
+}
+
+.payment-note {
+  font-size: 14px;
+  color: #666;
+  margin-top: 10px;
+}

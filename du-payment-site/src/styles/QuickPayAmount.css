@@ -1,0 +1,156 @@
+.quick-pay-amount-container {
+  font-family: 'Arial', sans-serif;
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 0;
+  direction: rtl;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.logo-container {
+  width: 70px;
+  height: 70px;
+}
+
+.du-logo {
+  width: 100%;
+  height: 100%;
+  background-image: url('../assets/du-logo.jpg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 10px;
+}
+
+.header-icons {
+  display: flex;
+  gap: 20px;
+}
+
+.icon {
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+}
+
+.user-icon {
+  background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></svg>');
+}
+
+.search-icon {
+  background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>');
+}
+
+.menu-icon {
+  background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg>');
+}
+
+.content {
+  padding: 20px;
+}
+
+.account-section {
+  margin-bottom: 20px;
+}
+
+.section-title {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.account-info {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.account-number {
+  font-size: 18px;
+  color: #333;
+  margin-left: 10px;
+}
+
+.change-button {
+  background: none;
+  border: none;
+  color: #d81b60;
+  font-size: 16px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.account-label {
+  font-size: 18px;
+  color: #333;
+}
+
+.divider {
+  height: 1px;
+  background-color: #eee;
+  margin: 20px 0;
+}
+
+.amount-section {
+  margin-top: 20px;
+}
+
+.amount-title {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 30px;
+}
+
+.form-group {
+  margin-bottom: 30px;
+}
+
+.amount-input {
+  width: 100%;
+  padding: 15px;
+  border: 1px solid #e91e63;
+  border-radius: 10px;
+  font-size: 16px;
+  outline: none;
+  text-align: right;
+  color: #e91e63;
+}
+
+.amount-input::placeholder {
+  color: #e91e63;
+}
+
+.payment-section {
+  margin-top: 20px;
+}
+
+.payment-title {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.payment-question {
+  font-size: 18px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.bank-card-button {
+  width: 100%;
+  padding: 15px;
+  background-color: #000;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-size: 18px;
+  cursor: pointer;
+  text-align: center;
+}

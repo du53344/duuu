@@ -1,0 +1,137 @@
+.verification-code-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  min-height: 100vh;
+  width: 100%;
+  max-width: 100%;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(180deg, #4169E1 0%, #5B7CE3 100%);
+  color: white;
+  text-align: center;
+}
+
+.verification-code-logo {
+  width: 80px;
+  height: 80px;
+  background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><path d="M50,10 C28.95,10 12,26.95 12,48 C12,69.05 28.95,86 50,86 C71.05,86 88,69.05 88,48 C88,26.95 71.05,10 50,10 Z M50,15 C68.23,15 83,29.77 83,48 C83,66.23 68.23,81 50,81 C31.77,81 17,66.23 17,48 C17,29.77 31.77,15 50,15 Z" fill="black"/><path d="M50,20 C34.5,20 22,32.5 22,48 C22,63.5 34.5,76 50,76 C65.5,76 78,63.5 78,48 C78,32.5 65.5,20 50,20 Z M50,25 C62.7,25 73,35.3 73,48 C73,60.7 62.7,71 50,71 C37.3,71 27,60.7 27,48 C27,35.3 37.3,25 50,25 Z" fill="black"/><path d="M50,30 C40.06,30 32,38.06 32,48 C32,57.94 40.06,66 50,66 C59.94,66 68,57.94 68,48 C68,38.06 59.94,30 50,30 Z M50,35 C57.18,35 63,40.82 63,48 C63,55.18 57.18,61 50,61 C42.82,61 37,55.18 37,48 C37,40.82 42.82,35 50,35 Z" fill="black"/><path d="M50,40 C45.58,40 42,43.58 42,48 C42,52.42 45.58,56 50,56 C54.42,56 58,52.42 58,48 C58,43.58 54.42,40 50,40 Z" fill="black"/><path d="M60,55 C65,60 70,65 70,65 L65,70 C65,70 60,65 55,60 C60,55 60,55 60,55 Z" fill="green"/><path d="M40,55 C35,60 30,65 30,65 L35,70 C35,70 40,65 45,60 C40,55 40,55 40,55 Z" fill="red"/></svg>');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  margin-bottom: 40px;
+}
+
+.verification-code-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 30px;
+  width: 80%;
+}
+
+.new-account-button {
+  background-color: #2EDAD8;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-bottom: 20px;
+  width: auto;
+}
+
+.account-recovery-button {
+  background: none;
+  color: white;
+  border: none;
+  font-size: 18px;
+  cursor: pointer;
+  margin-bottom: 40px;
+  text-decoration: underline;
+}
+
+.verification-code-input-label {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 15px;
+  align-self: flex-end;
+  margin-right: 20%;
+}
+
+.verification-code-input-container {
+  width: 90%;
+  margin-bottom: 30px;
+}
+
+.verification-code-input {
+  width: 100%;
+  padding: 15px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 8px;
+  font-size: 18px;
+  background-color: transparent;
+  color: white;
+}
+
+.verification-code-button {
+  width: 60%;
+  padding: 15px;
+  background-color: #2EDAD8;
+  color: white;
+  border: none;
+  border-radius: 25px;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  margin: 20px 0 40px;
+}
+
+.verification-code-button:disabled {
+  opacity: 0.7;
+  cursor: not-allowed;
+}
+
+.verification-code-footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: auto;
+  width: 100%;
+  padding: 20px 0;
+  position: relative;
+}
+
+.copyright-text {
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.lock-icon {
+  width: 40px;
+  height: 40px;
+  background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><rect x="5" y="11" width="14" height="10" rx="2" fill="%230066cc"/><rect x="5" y="11" width="14" height="10" rx="2" fill="white" opacity="0.7"/><path d="M8,11 L8,7 C8,4.790861 9.790861,3 12,3 C14.209139,3 16,4.790861 16,7 L16,11" stroke="white" stroke-width="2" fill="none"/><circle cx="12" cy="16" r="2" fill="%230066cc"/></svg>');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  position: absolute;
+  right: 20px;
+}
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+  .verification-code-title {
+    font-size: 20px;
+  }
+  
+  .verification-code-input-label {
+    align-self: center;
+    margin-right: 0;
+  }
+  
+  .verification-code-button {
+    width: 80%;
+  }
+}
